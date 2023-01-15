@@ -376,4 +376,83 @@ position: relative;
 .contact-form {
     flex-direction: column;
 }
+.Some-Facts-section {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.single-Some-Facts {
+    text-align: center;
+    border: 2px solid #FF900E;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 23px 0px;
+}
+
+.contact-form form input {
+    padding: 16px 46px;
+    font-size: 24px;
+    border: none;
+    background: #FF900E;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    color: #ffff;
+    width: 100%;
+}
+
+.Some-Facts-section {
+    margin-top: 20%;
+    text-align: center;
+}
+
+.feature-enjoy-img button {
+    background: #FF900E;
+    border: none;
+    border-radius: 5px;
+    padding: 18px 17px;
+    position: absolute;
+    left: 30%;
+    bottom: -20%;
+}
+
+.sponspors {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 4rem;
+}
+}
+@media screen and (min-width: 577px) and (max-width: 992px) {
+
+    .feature-enjoy-img button {
+        background: #FF900E;
+        border: none;
+        border-radius: 5px;
+        padding: 18px 17px;
+        position: absolute;
+        left: -18%;
+        bottom: -17%;
+    }
+
+    .Some-Facts-section {
+        margin-top: 14%;
+        text-align: center;
+    }
+
+    .Some-Facts {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .contact-form form input {
+        padding: 16px 46px;
+        font-size: 24px;
+        border: none;
+        background: #FF900E;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        color: #ffff;
+        width: 100%;
+    }
 }
