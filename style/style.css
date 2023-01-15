@@ -4,8 +4,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+body {
     font-family: 'Work Sans', sans-serif;
+    width: 1440px;
+    margin: 0 auto;
 }
 .header-area {
     background: rgba(255, 144, 14, 0.1);
@@ -173,4 +175,125 @@ margin: 30px 0;
     line-height: 40px;
     text-align: center;
     color: #FFFFFF;
+}
+/* some fact section start hear */
+.Some-Facts-section {
+    margin-top: 100px;
+}
+.Some-Facts {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.single-Some-Facts img{
+width: 48px;
+
+}
+.Some-Facts-content h3 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+}
+.Some-Facts-content p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin: 20px 0 70px 0;
+}
+.single-Some-Facts {
+    text-align: center;
+    border: 2px solid #FF900E;
+    padding: 20px;
+    border-radius: 5px;
+}
+.single-Some-Facts:hover{
+    background-color: blueviolet;
+    border: 3px solid green;
+}
+.single-Some-Facts h4 {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 53px;
+    color: #424242;
+    margin: 10px 0;
+}
+.single-Some-Facts p{
+font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+color: #727272;
+}
+/* sponser area */
+.sponspors-section {
+    margin-top: 150px;
+}
+.sponspors-content {
+    text-align: center;
+}
+.sponspors-content h4 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+}
+.sponspors-content p {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+    margin: 20px 0 100px 0;
+}
+.single-sponspors img{
+width: 153px;
+
+}
+.sponspors {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* contact form */
+.contact-section {
+    margin-top: 100px;
+}
+.contact-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-form {
+    display: flex;
+    justify-content: center;
+    gap: 337px;
+}
+.office-address h4 {
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+.office-address p {
+    font-size: 30px;
+    font-weight: 600;
+}
+.contact-form form input {
+    padding: 16px 46px;
+    font-size: 24px;
+    border: none;
+    background: #FF900E;;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    color: #ffff;
+}
+/* footer section */
+.footer-section {
+    background: #FFF4E7;
+    border-radius: 8px;
+    padding: 30px;
+    margin: 100px;
+}
+.footer-section p {
+    text-align: center;
+    font-size: 20px;
+    line-height: 23px;
+    color: #424242;
 }
